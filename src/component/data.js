@@ -1,6 +1,6 @@
 import React from "React";
 
-const Nav = [
+export const Nav = [
   {
     title: "Become a supplier",
   },
