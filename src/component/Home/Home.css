@@ -1,0 +1,31 @@
+.home__bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 10.42%,
+      rgba(0, 0, 0, 0.14) 27.08%,
+      rgba(0, 0, 0, 0.75) 100.6%
+    ),
+    url(".././img/bg.png");
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .home__bg {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 10.42%,
+        rgba(0, 0, 0, 0.14) 27.08%,
+        rgba(0, 0, 0, 0.75) 100.6%
+      ),
+      url(".././img/mobilebg.png");
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}
