@@ -1,4 +1,5 @@
 import React from "react";
+import bg from "./img/image 69.png";
 
 const Home = () => {
   return (
