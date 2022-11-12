@@ -12,7 +12,20 @@
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
 }
-
+section {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+.home__box {
+  background: var(--dark-green);
+  width: 636px;
+  height: 497px;
+  border-radius: 20px;
+}
+.home__img {
+  width: 504px;
+  height: 503px;
+}
 @media screen and (max-width: 768px) {
   .home__bg {
     background-image: linear-gradient(

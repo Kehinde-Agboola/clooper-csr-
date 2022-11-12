@@ -1,0 +1,9 @@
+.goal__but button {
+  background: var(--button);
+  padding: 1rem 2rem;
+  border-radius: 13.3px;
+}
+
+.goals__but img {
+  width: 100%;
+}

@@ -27,9 +27,12 @@ p {
   --green: #419078;
   --very-light-green: #eef7f5;
   --white: #ffff;
+  --dark-green: #1d4146;
 }
-
+body {
+  overflow-x: hidden;
+}
 section {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 2rem auto;
 }

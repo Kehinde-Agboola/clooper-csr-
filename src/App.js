@@ -1,10 +1,14 @@
 import Home from "./component/Home/Home";
-
+import Goal from "./component/Goals/Goal";
+import Homeless from "./component/Homeless/Homeless";
+import Person from "./component/Person/Person";
 function App() {
   return (
     <div className="App">
       <Home />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Goal />
+      <Homeless />
+      <Person />
     </div>
   );
 }
