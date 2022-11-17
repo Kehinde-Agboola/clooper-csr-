@@ -1,25 +1,24 @@
 import React from "react";
-import gen from ".././img/gen.svg";
-import Bus from "../Box/Bus";
-const Genesis = () => {
+import red from ".././img/red.svg";
+import "./passage.css";
+import Box from "../Box/Box";
+const Passage = () => {
   return (
     <>
       <section>
         <div className="md:flex md:justify-between">
           <div className="impact__img">
-            <img src={gen} alt="" />
+            <img src={red} alt="" />
           </div>
           <div className="impact__word max-w-[65%]">
-            <h1 className="text-2xl text-[#000000] font-bold">
-              Genesis House of Freedom Foundation
-            </h1>
+            <h1 className="text-2xl text-[#000000] font-bold">The Passage</h1>
 
             <p>
-              Genesis House is a Residential Rehabilitation and Resource Centre
-              in Lagos, Nigeria. Their personalised solutions provide physical,
-              emotional and vocational support to help vulnerable young women
-              aged 18-25 years old, who have been sexually abused, exploited and
-              trafficked. This helps them get their lives back on track.
+              The Passage offers a wide range of services, all year round, to
+              meet the needs of homeless and vulnerable people. These services
+              help people address the issues that have contributed to them
+              becoming homeless, and enable them to move on to live safe, happy
+              and fulfilling lives.
             </p>
             <div>
               <div className="md:flex">
@@ -33,7 +32,8 @@ const Genesis = () => {
                 </div>
               </div>
               <div className="md:grid md:grid-cols-2 gap-[1rem]">
-                <Bus />
+                <Box />
+                <Box />
               </div>
             </div>
           </div>
@@ -43,4 +43,4 @@ const Genesis = () => {
   );
 };
 
-export default Genesis;
+export default Passage;

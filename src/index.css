@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *,
 *::after,
 *::before {
@@ -10,15 +11,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: "Poppins", sans-serif;
-}
+
+
 :root {
   --dark-d1: #363636;
   --dark-d3: #000000;
@@ -29,9 +23,25 @@ p {
   --white: #ffff;
   --dark-green: #1d4146;
 }
+
 body {
   overflow-x: hidden;
 }
+
+a {
+  color: var(--green)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 section {
   max-width: 1440px;
   margin: 2rem auto;

@@ -1,0 +1,9 @@
+.quote___section {
+    display: flex;
+    background: var(--very-light-green);
+    margin: 4rem auto;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    border: 1px dashed #419078;
+    border-radius: 30px;
+}

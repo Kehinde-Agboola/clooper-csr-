@@ -18,29 +18,39 @@ const Home = () => {
       </header>
       <section>
         <div className="text-black text-center">
-          <h1 className="md:text-4xl max-w-[65%] mx-auto font-bold">
-            At Clooper, we believe that our work must make the environment and
-            society better or there is no point.
-          </h1>
-          <div className="max-w-[50%] mx-auto mt-10">
-            <p>
-              Therefore, we support the Ten Principles of the United Nations
-              Global Compact in the areas of <strong>Human Rights</strong>,
-              <strong>Labour</strong>, <strong>Environment</strong> , and
-              <strong>Anti-Corruption</strong>. By incorporating the Ten
-              Principles into our culture, strategies, policies and daily
-              operations, we want to make a positive impact to both people and
-              the planet through responsible business.
-            </p>
-            <p className="pt-5">
-              Our continuous efforts will help us contribute to United Nations
-              goals, including the Sustainable Development Goals.
-            </p>
+          <div>
+            <ul className="sub__heading flex gap-[3rem] justify-center text-center mb-20">
+              <li className="underline text-[#419078]">Sustainability</li>
+              <li>Social Impact</li>
+              <li>Awards & Recognitions</li>
+              <li>Fundraising</li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="md:text-4xl max-w-[65%] mx-auto font-bold">
+              At Clooper, we believe that our work must make the environment and
+              society better or there is no point.
+            </h1>
+            <div className="max-w-[50%] mx-auto mt-10">
+              <p>
+                Therefore, we support the Ten Principles of the United Nations
+                Global Compact in the areas of <strong>Human Rights</strong>,
+                <strong>Labour</strong>, <strong>Environment</strong> , and
+                <strong>Anti-Corruption</strong>. By incorporating the Ten
+                Principles into our culture, strategies, policies and daily
+                operations, we want to make a positive impact to both people and
+                the planet through responsible business.
+              </p>
+              <p className="pt-5">
+                Our continuous efforts will help us contribute to United Nations
+                goals, including the Sustainable Development Goals.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section>
-        <div className="flex__box md:flex md:flex-row md:gap-10 flex flex-col text-white">
+        <div className="md:flex md:flex-row md:gap-10 flex flex-col text-white">
           <div className="home__box py-[3rem] px-[3rem]">
             <p className="text-[1rem] ">
               The pandemic has had an adverse effect on people and people’s

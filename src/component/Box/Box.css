@@ -1,0 +1,14 @@
+.flex__box {
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.flex__box p {
+    padding-bottom: 1rem;
+}
+
+.flex__box a {
+    text-decoration: none;
+    color: #419078;
+}
