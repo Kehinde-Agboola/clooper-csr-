@@ -12,3 +12,42 @@
     text-decoration: none;
     color: #419078;
 }
+
+.overall__box {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-betwwen;
+    max-width: 1300px;
+    margin: 0 auto;
+
+
+}
+
+/* .box__bg {
+    background: linear-gradient(200deg, #363636 71%, #000000 90%);
+    padding-bottom: 4rem;
+} */
+
+.img__bg img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+}
+
+/* .img__bg {
+    width: 100%;
+} */
+
+.fund__word {
+    padding: 1.5rem 1.5rem;
+    font-size: 0.8rem;
+}
+
+.main__box {
+    display: flex;
+    gap: 1rem;
+    background: whites;
+    height: 193px;
+    border-radius: 20px;
+    background: white;
+}

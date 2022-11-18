@@ -1,0 +1,24 @@
+.footer__links a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.footer__links ul li {
+    padding-top: 1rem;
+}
+
+.footer__links p a {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.footer__bg {
+    background: var(--footer)
+}
+
+.footer__img {
+    border-top-style: 3px solid gray;
+    border-bottom-style: 3px solid gray;
+}

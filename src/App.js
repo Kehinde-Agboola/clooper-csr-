@@ -10,7 +10,9 @@ import Habit from "./component/HIB/Habit";
 import Genesis from "./component/Genesis/Genesis";
 import Article from "./component/Article/Article";
 import Articule from "./component/Article/Articule";
-
+import Fund from "./component/Fund/Fund";
+import Award from "./component/Award/Award";
+import Footer from "./component/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,9 @@ function App() {
       <Habit />
       <Genesis />
       <Articule />
+      <Fund />
+      <Award />
+      <Footer />
     </div>
   );
 }

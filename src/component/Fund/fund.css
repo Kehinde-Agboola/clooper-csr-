@@ -1,0 +1,64 @@
+/* .fundd {
+    background-image: linear-gradient(180deg, rgba(54, 54, 54, 0) 0%, #363636 100%),
+        url(".././img/water.svg");
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 700px;
+} */
+
+.overlay {
+    /* background: linear-gradient(180deg, #363636 71%, #000000 90%); */
+    /* padding-bottom: 4rem; */
+    /* background: red; */
+}
+
+.fund__bg {
+    background: linear-gradient(180deg, #363636 71%, #000000 90%);
+    padding-bottom: 4rem;
+}
+
+.fund {
+    background: linear-gradient(180deg, rgba(54, 54, 54, 0) 0%, #363636 100%),
+        url("../img/water.svg");
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+}
+
+.overlay {
+    width: 27%;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    left: 12%;
+    bottom: 0;
+    color: white;
+}
+
+.fund__boxes {
+    display: flex;
+    gap: 4rem;
+}
+
+/* .class {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+} */
+
+.class a {
+    color: #faca38;
+}
