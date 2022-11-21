@@ -82,7 +82,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="footer__img md:grid md:grid-cols-5">
+        <div className="footer__img md:grid md:grid-cols-5 content-center">
           <img scr={linkedin} alt="Linkedin" />
           <img scr={instagram} alt="Instagram" />
           <img scr={youtube} alt="Youtube" />

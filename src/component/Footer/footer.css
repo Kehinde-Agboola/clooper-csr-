@@ -19,6 +19,8 @@
 }
 
 .footer__img {
-    border-top-style: 3px solid gray;
-    border-bottom-style: 3px solid gray;
+    margin-top: 5rem;
+    border-top-style: 3px solid #eef7f5;
+    border-bottom-style: 3px solid #eef7f5;
+    padding: 2rem 0;
 }
